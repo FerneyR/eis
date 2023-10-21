@@ -1,0 +1,7 @@
+El frontend para el status page quedo solamente sirviendo en la url localhost:10006
+(puerto donde funciona el contenedor frontstatusreview, a futuro cambiar localhost por servidor)
+
+La url configurada en el servidor nginx como reverse proxy localhost://frontstatusreview/ no funciona, no pude solucionarlo.
+
+El endpoint del backend para el status page es http://localhost/statusreview/statuspage
+
